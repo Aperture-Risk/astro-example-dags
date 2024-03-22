@@ -1,2 +1,10 @@
 # Astro Runtime includes the following pre-installed providers packages: https://docs.astronomer.io/astro/runtime-image-architecture#provider-packages
-pycurl==7.45.2
+
+azure-core==1.29.6
+azure-eventhub==5.11.6
+azure-eventhub-checkpointstoreblob-aio==1.1.4
+azure-identity==1.15.0
+azure-storage-blob==12.19.0
+async-lru==2.0.4
+asyncio==3.4.3
+aiohttp==3.9.1
