@@ -106,8 +106,7 @@ async def run(msg):
     from azure.eventhub import EventData
     from azure.eventhub.aio import EventHubProducerClient
     import json
-    EVENT_HUB_CONNECTION_STR = "Endpoint=sb://apertureibconnect.servicebus.windows.net/;SharedAccessKeyName=ibconnectsap;SharedAccessKey=5C0NgpfWcl23DQPN8+KwkqkHnPetPCZLl+AEhIXfXho=;EntityPath=eh-ibconnect"
-    EVENT_HUB_NAME = "eh-ibconnect"
+ 
     # create a producer client to send messages to the event hub
     # specify connection string to your event hubs namespace and
     # the event hub name
